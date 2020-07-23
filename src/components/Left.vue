@@ -29,12 +29,14 @@
       <p>
         <span class="icon">&#xe67b;</span>
         <span class="title">就读时间：</span>
-        <span class="text">2015.7 - 2019.7</span>
+        <span class="text">2015.7-2019.7</span>
       </p>
       <p>
         <span class="chenjz-icon">&#xe63d;</span>
         <span class="title">获奖经历：</span>
-        <span class="text">获得过一次国家奖学金，多次校奖学金</span>
+        <span class="text">一次国家奖学金</span>
+        <span class="text" style="padding-left: 117px;">多次校奖学金</span>
+        <span class="text" style="padding-left: 117px;">专业排名前35%</span>
       </p>
     </div>
     <div class="contact">
@@ -69,16 +71,16 @@
       <p class="title-top">
         <span class="title-cn">关于我</span>
       </p>
-      <p>1.致力于优雅编程，Tab缩进党</p>
-      <p>2.关注前端技术的更新，乐于学习新技术</p>
-      <p>3.轻微强迫症，注意代码书写的规范</p>
-      <p>4.较强的自学能力，上进心强</p>
+      <p>1.较强的学习能力</p>
+      <p>2.良好的协作能力</p>
+      <p>3.较好的抗压能力，能够独立承担</p>
+      <p>4.轻微强迫症，注意代码书写的规范</p>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="scss">
