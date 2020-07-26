@@ -117,15 +117,24 @@
     </div>
 
     <div class="project">
-      <p class="title">个人项目</p>
-      <div class="content">
+      <p class="title">工作经历</p>
+      <div class="content project-content">
         <p class="sec-title">
-          <span class="dot"></span>模仿的音乐webapp（学习开发中）
+          <span class="dot"></span>厦门亿联网络技术股份有限公司（2019.7-至今）
         </p>
         <p class="link">
-          <span class="icon">&#xe67c;</span>
-          <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
-          <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a>
+          <!-- <span class="chenjz-icon">&#xe611;</span> -->
+          <span class="project-key-word">项目一：</span>
+          <span class="project-item-name">企业统一通信管理端平台</span>
+          <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
+          <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
+        </p>
+        <p class="text">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word">概述：</span>
+          <span>
+            企业统一通讯解决方案的管理端平台，主要包IM和PBX配置、视频回忆、设备管理等功能
+          </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
@@ -169,7 +178,64 @@
           </span>
         </p>
       </div>
-      <div class="content">
+      <div class="content project-content">
+        <p class="link">
+          <!-- <span class="chenjz-icon">&#xe611;</span> -->
+          <span class="project-key-word">项目二：</span>
+          <span class="project-item-name">UC3.X（ PC / Mobile）</span>
+          <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
+          <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
+        </p>
+        <p class="text">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word">概述：</span>
+          <span>
+            企业统一通讯解决方案的管理端平台，主要包IM和PBX配置、视频回忆、设备管理等功能
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            基于
+            <strong>Vue</strong> 框架使用了它的全家桶
+            <strong>（vue-router,vuex）</strong>，使用
+            <strong>vue-cli</strong> 工具快速构建应用，使用
+            <strong>ES6</strong> 语法和
+            <strong>SCSS</strong> 预处理器，使用
+            <strong>webpack</strong> 打包各个资源和组件
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            目标是将播放器内核、推荐页面、热榜页面、歌手页面、歌单详情、歌手详情、排行榜详情、搜索页面、播放列表、用户中心等等功能抽离为单独的vue组件，想实现常见
+            <strong>音乐播放</strong>功能（还在学习开发中）
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            从官方API上使用
+            <strong>JSONP和axios(结合node使用服务器代理)</strong>
+            方式获取数据并进行渲染
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            每个用户可以
+            <strong>增删改查</strong>自己的听歌记录
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            引入了其他封装的库
+            <strong>lazyload，better-scroll，axios，fastclick</strong>
+          </span>
+        </p>
+      </div>
+      <!-- <div class="content">
         <p class="sec-title">
           <span class="dot"></span>小米购物PC端首页
         </p>
@@ -205,8 +271,8 @@
             <strong>事件绑定，动态绑定class，v-show，v-if，transition</strong>完成所有的交互效果
           </span>
         </p>
-      </div>
-      <div class="content">
+      </div> -->
+      <!-- <div class="content">
         <p class="sec-title">
           <span class="dot"></span>bilibili弹幕视频网站PC端首页
         </p>
@@ -296,7 +362,7 @@
             <strong>AJAX</strong>来获取自己写的假JSON数据
           </span>
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -312,7 +378,7 @@ export default {}
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
   .project,
   .skill {
     position: relative;
@@ -347,9 +413,10 @@ export default {}
         .dot {
           height: 11px;
           width: 11px;
+          margin-top: -1px;
           margin-right: 5px;
           border-radius: 50%;
-          background-color: #000;
+          background-color: #333;
         }
       }
       .link {
@@ -367,6 +434,15 @@ export default {}
             color: white;
             background-color: black;
           }
+        }
+        > .chenjz-icon {
+          margin-top: 2px;
+          margin-right: 5px;
+        }
+        > .project-item-name {
+          font-size: 18px;
+          letter-spacing: 1px;
+          font-weight: 600;
         }
       }
       .text {
@@ -387,7 +463,7 @@ export default {}
           line-height: 1.5;
           margin-top: -1px;
         }
-        .icon {
+        .icon,.chenjz-icon {
           margin-top: 2px;
           margin-right: 5px;
         }
@@ -404,6 +480,17 @@ export default {}
           border: 1px solid #333;
         }
       }
+      &.project-content {
+        margin-bottom: 15px;
+        .text {
+          padding-left: 35px;
+        }
+        .project-key-word {
+          font-size: 18px;
+          letter-spacing: 1px;
+          font-weight: 600;
+        }
+      }
     }
   }
 }
@@ -417,15 +504,13 @@ export default {}
     url("//at.alicdn.com/t/font_gq5r7ev6op28d7vi.svg#iconfont") format("svg");
 }
 @font-face {
-  font-family: "chenjz-iconfont"; /* project id 1952750 */
-  src: url("//at.alicdn.com/t/font_1952750_dlcig94sapt.eot");
-  src: url("//at.alicdn.com/t/font_1952750_dlcig94sapt.eot?#iefix")
-      format("embedded-opentype"),
-    url("//at.alicdn.com/t/font_1952750_dlcig94sapt.woff2") format("woff2"),
-    url("//at.alicdn.com/t/font_1952750_dlcig94sapt.woff") format("woff"),
-    url("//at.alicdn.com/t/font_1952750_dlcig94sapt.ttf") format("truetype"),
-    url("//at.alicdn.com/t/font_1952750_dlcig94sapt.svg#chenjz-iconfont")
-      format("svg");
+  font-family: 'chenjz-iconfont';  /* project id 1952750 */
+  src: url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.eot');
+  src: url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1952750_vmu39aa95cr.svg#chenjz-iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
