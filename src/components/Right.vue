@@ -74,10 +74,18 @@
       </div>
       <!-- Javascript / HTML（5） / CSS（3） / SCSS -->
 
+      <!-- Typescript -->
+      <div class="content">
+        <p class="sec-title">
+          <span class="dot"></span>了解Typescript
+        </p>
+      </div>
+      <!-- Typescript -->
+
       <!-- Node以及相关服务端框架 -->
       <div class="content">
         <p class="sec-title">
-          <span class="dot"></span>了解Node以及相关服务端框架（Express / egg）
+          <span class="dot"></span>了解Node以及相关服务端框架（express / egg）
         </p>
       </div>
       <!-- Node以及相关服务端框架 -->
@@ -125,56 +133,40 @@
         <p class="link">
           <!-- <span class="chenjz-icon">&#xe611;</span> -->
           <span class="project-key-word">项目一：</span>
-          <span class="project-item-name">企业统一通信管理端平台</span>
+          <span class="project-item-name">亿联统一通信管理端平台</span>
           <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
           <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
         </p>
-        <p class="text">
+        <p class="text need-more-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word">概述：</span>
+          <span class="project-key-word need-more-length" style="width: 125px;">概述：</span>
           <span>
-            企业统一通讯解决方案的管理端平台，主要包IM和PBX配置、视频回忆、设备管理等功能
+            企业统一通讯解决方案的管理端平台，主要包括视频会议、IM和PBX配置、设备管理等功能。项目使用vue + yl-ui做前端，express做服务端BFF层，nginx做代理服务器，redis做session缓存。
+          </span>
+        </p>
+        <p class="text need-more-bottom">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word need-more-length" style="width: 76px;">职责：</span>
+          <span>
+            2.4-2.6版本迭代的项目前端负责人，负责需求评审、讨论、开发，包括任务分配，技术支持，bug修改等相关流程杂活
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            基于
-            <strong>Vue</strong> 框架使用了它的全家桶
-            <strong>（vue-router,vuex）</strong>，使用
-            <strong>vue-cli</strong> 工具快速构建应用，使用
-            <strong>ES6</strong> 语法和
-            <strong>SCSS</strong> 预处理器，使用
-            <strong>webpack</strong> 打包各个资源和组件
+            会议高级控制使用apollo-sip SDK通过建立socket连接直接与fs进行数据交互。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            目标是将播放器内核、推荐页面、热榜页面、歌手页面、歌单详情、歌手详情、排行榜详情、搜索页面、播放列表、用户中心等等功能抽离为单独的vue组件，想实现常见
-            <strong>音乐播放</strong>功能（还在学习开发中）
+            服务端express使用了consul进行后端服务发现。前端项目的访问利用了该逻辑加上nginx的负载均衡粒度修改实现了灰度升级发布。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            从官方API上使用
-            <strong>JSONP和axios(结合node使用服务器代理)</strong>
-            方式获取数据并进行渲染
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            每个用户可以
-            <strong>增删改查</strong>自己的听歌记录
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            引入了其他封装的库
-            <strong>lazyload，better-scroll，axios，fastclick</strong>
+
           </span>
         </p>
       </div>
@@ -186,52 +178,24 @@
           <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
           <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
         </p>
-        <p class="text">
+        <p class="text need-more-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word">概述：</span>
+          <span class="project-key-word need-more-length" style="width: 151px;">概述：</span>
           <span>
-            企业统一通讯解决方案的管理端平台，主要包IM和PBX配置、视频回忆、设备管理等功能
+            一个类C端的团队即时协作应用，用户可以各自创建、设置团队，每个团队的功能都包括话题、任务、文件。项目使用vue + element-ui/vant-ui做前端，socket做即时推送，egg做服务端BFF层，nginx做代理服务器，redis做session缓存。
+          </span>
+        </p>
+        <p class="text need-more-bottom">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word">职责：</span>
+          <span>
+            项目中任务模块的开发，主要包括团队任务、个人任务。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            基于
-            <strong>Vue</strong> 框架使用了它的全家桶
-            <strong>（vue-router,vuex）</strong>，使用
-            <strong>vue-cli</strong> 工具快速构建应用，使用
-            <strong>ES6</strong> 语法和
-            <strong>SCSS</strong> 预处理器，使用
-            <strong>webpack</strong> 打包各个资源和组件
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            目标是将播放器内核、推荐页面、热榜页面、歌手页面、歌单详情、歌手详情、排行榜详情、搜索页面、播放列表、用户中心等等功能抽离为单独的vue组件，想实现常见
-            <strong>音乐播放</strong>功能（还在学习开发中）
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            从官方API上使用
-            <strong>JSONP和axios(结合node使用服务器代理)</strong>
-            方式获取数据并进行渲染
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            每个用户可以
-            <strong>增删改查</strong>自己的听歌记录
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            引入了其他封装的库
-            <strong>lazyload，better-scroll，axios，fastclick</strong>
+            服务端express使用了consul进行后端服务发现。前端项目的访问利用了该逻辑加上nginx的负载均衡粒度修改实现了灰度升级发布。
           </span>
         </p>
       </div>
@@ -451,6 +415,9 @@ export default {}
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        &.need-more-bottom {
+          margin-bottom: 10px;
+        }
         > a {
           transition: all 0.2s;
           &:hover {
@@ -489,6 +456,9 @@ export default {}
           font-size: 18px;
           letter-spacing: 1px;
           font-weight: 600;
+          &.need-more-length {
+            display: inline-block;
+          }
         }
       }
     }

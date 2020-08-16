@@ -54,7 +54,7 @@
         <span class="text">2322492240@qq.com</span>
       </p>
     </div>
-    <div class="link">
+    <!-- <div class="link">
       <p class="title-top">
         <span class="title-cn">相关链接</span>
       </p>
@@ -66,7 +66,7 @@
         <a href="https://www.jianshu.com/u/4c2ab03a73e4" target="_blank" class="icon">&#xe66a;</a>
         <a href="https://www.jianshu.com/u/4c2ab03a73e4" target="_blank" class="title">个人简书博客</a>
       </p>
-    </div>
+    </div> -->
     <div class="hobby">
       <p class="title-top">
         <span class="title-cn">关于我</span>
