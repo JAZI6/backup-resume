@@ -107,7 +107,7 @@
         <p class="sec-title">
           <span class="dot"></span>其他
         </p>
-        <p class="text">
+        <!-- <p class="text">
           <span class="icon">&#xe71f;</span>能够使用&nbsp;
           <strong>MarkDown</strong>&nbsp;编写得体的文档，具备良好的技术交流能力
         </p>
@@ -117,7 +117,7 @@
             了解 git 命令行的使用，能使用
             <strong>Git</strong>&nbsp;来上传和管理代码
           </span>
-        </p>
+        </p> -->
         <p class="text">
           <span class="icon">&#xe71f;</span>了解性能优化，并且对于其中的一些部分有所实践
         </p>
@@ -148,7 +148,7 @@
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
           <span class="project-key-word need-more-length" style="width: 76px;">职责：</span>
           <span>
-            2.4-2.6版本迭代的项目前端负责人，负责需求评审、讨论、开发，包括任务分配，技术支持，bug修改等相关流程杂活
+            2.4-2.6版本迭代的项目前端负责人，负责需求评审、讨论、开发，包括任务分配、技术支持、bug修改等相关流程杂活
           </span>
         </p>
         <p class="text">
@@ -189,13 +189,13 @@
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
           <span class="project-key-word">职责：</span>
           <span>
-            项目中任务模块的开发，主要包括团队任务、个人任务。
+            项目中任务模块的开发，主要包括团队、个人任务。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            服务端express使用了consul进行后端服务发现。前端项目的访问利用了该逻辑加上nginx的负载均衡粒度修改实现了灰度升级发布。
+            服务端egg通过socket连接redis服务，并以此消费其中的事件推送队列，然后进一步向前端派发事件通知
           </span>
         </p>
       </div>
