@@ -60,7 +60,7 @@
         <p class="text">
           <span class="icon">&#xe71f;</span>
           <span>
-            熟悉使用常见的ES6语法，对<strong>this、原型链、作用域、事件循环、闭包等语法重点以及常见的创建式设计模式</strong>有自己的理解
+            熟悉使用常见的ES6语法，对<strong>原型链、作用域、闭包、this、事件循环等语法重点以及常见的设计模式</strong>有一定理解
           </span>
         </p>
         <p class="text">
@@ -77,7 +77,7 @@
       <!-- Typescript -->
       <div class="content">
         <p class="sec-title">
-          <span class="dot"></span>了解Typescript
+          <span class="dot"></span>了解使用过Typescript
         </p>
       </div>
       <!-- Typescript -->
@@ -85,7 +85,7 @@
       <!-- Node以及相关服务端框架 -->
       <div class="content">
         <p class="sec-title">
-          <span class="dot"></span>了解Node以及相关服务端框架（express / egg）
+          <span class="dot"></span>了解使用过Node以及相关服务端框架（express / egg）
         </p>
       </div>
       <!-- Node以及相关服务端框架 -->
@@ -97,7 +97,7 @@
         </p>
         <p class="text">
           <span class="icon">&#xe71f;</span>能够使用
-          <strong>webpack、脚手架（vue-cli等）</strong> 配置构建简单项目，并对该工具有一定理解
+          <strong>webpack、脚手架（vue-cli等）</strong> 配置构建简单项目，对该工具有一定理解
         </p>
       </div>
       <!-- 工程化构建工具 -->
@@ -118,6 +118,9 @@
             <strong>Git</strong>&nbsp;来上传和管理代码
           </span>
         </p> -->
+        <p class="text">
+          <span class="icon">&#xe71f;</span>了解使用过python，优化组内的项目打包脚本，并将其改写生成为exe文件的GUI工具，减少使用者对于环境的依赖
+        </p>
         <p class="text">
           <span class="icon">&#xe71f;</span>了解性能优化，并且对于其中的一些部分有所实践
         </p>
@@ -160,13 +163,13 @@
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            服务端express使用了consul进行后端服务发现。前端项目的访问利用了该逻辑加上nginx的负载均衡粒度修改实现了灰度升级发布。
+            灰度升级：本身服务端express使用了consul进行后端服务发现，于是利用了该逻辑加上nginx的负载均衡粒度修改去完成了灰度。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-
+            部分重构，抽取通用部分：封装输出管理端常用得组件、类、Mixin等
           </span>
         </p>
       </div>
@@ -195,7 +198,19 @@
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            服务端egg通过socket连接redis服务，并以此消费其中的事件推送队列，然后进一步向前端派发事件通知
+            即时推送：服务端egg通过socket连接redis服务，以reids队列提供的方法，不断地消费其中的事件推送队列，然后进一步向前端派发事件通知。
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            文件批量上传：任务上传附件使用；前端基于HTML file类型的input，和JS原生对象FileReader、FormData、XMLHttpRequest以及它们提供的api实现，包括显示上传的进度速率、并发上传、终止上传、重新上传；node端依赖于stream-wormhole、formstream完成大文件的分片、管道流上传。
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            简易富文本编辑框：任务添加评论使用；基于HTML的contenteditable属性，和JS原生对象Selection、Range及其相关api实现
           </span>
         </p>
       </div>
