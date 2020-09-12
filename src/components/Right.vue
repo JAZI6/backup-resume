@@ -3,19 +3,43 @@
     <div class="skill">
       <p class="title">技能清单</p>
 
+      <!-- Javascript / HTML（5） / CSS（3） / SCSS -->
+      <div class="content">
+        <p class="sec-title">
+          <span class="dot"></span>熟练使用 Javascript / HTML（5）/ CSS（3）
+          <!-- / SCSS -->
+        </p>
+        <p class="text">
+          <span class="icon">&#xe71f;</span>
+          <span>
+            熟悉使用常见的 ES6 语法，对 <strong>原型链、作用域、闭包、this、事件循环等语法重点</strong> 以及 <strong>常见的设计模式</strong> 有一定理解
+          </span>
+        </p>
+        <p class="text">
+          <span class="icon">&#xe71f;</span>编写语义化的 HTML(5)，注意dom结构的精简
+        </p>
+        <p class="text">
+          <span class="icon">&#xe71f;</span>
+          能够使用 CSS(3) 的常用布局如：传统布局、flex布局、响应式等
+        </p>
+        <!-- <p class="text">
+          <span class="icon">&#xe71f;</span>熟悉使用SCSS等预处理器常见用法，理解它与CSS的差别
+        </p> -->
+      </div>
+      <!-- Javascript / HTML（5） / CSS（3） / SCSS -->
+
       <!-- Vue -->
       <div class="content">
         <p class="sec-title">
-          <span class="dot"></span>熟练使用 Vue.js
+          <span class="dot"></span>熟练使用 Vue.js 与 周边UI组件库（element / vant）
         </p>
         <p class="text">
           <span class="icon">&#xe71f;</span>
-          依据功能模块设计封装<strong>独立</strong>的组件，抽取<strong>mixin、工具</strong>方法
+          <span>依据功能模块设计封装独立的组件，抽取 <strong>业务类、Mixin、工具方法</strong></span>
         </p>
         <p class="text">
           <span class="icon">&#xe71f;</span>
-          对 Vue 的
-          <strong>语法重点如：数据响应绑定、模板编译、diff算法等</strong>&nbsp;有一定了解
+          <span>对 Vue 的 <strong>实现重点如：数据响应绑定、模板编译、diff 算法等</strong> 有一定了解</span>
         </p>
         <!-- <p class="text">
           <span class="icon">&#xe71f;</span>
@@ -52,28 +76,6 @@
       </div> -->
       <!-- JavaScript / jQuery -->
 
-      <!-- Javascript / HTML（5） / CSS（3） / SCSS -->
-      <div class="content">
-        <p class="sec-title">
-          <span class="dot"></span>熟练使用 Javascript / HTML（5） / CSS（3） / SCSS
-        </p>
-        <p class="text">
-          <span class="icon">&#xe71f;</span>
-          <span>
-            熟悉使用常见的ES6语法，对<strong>原型链、作用域、闭包、this、事件循环等语法重点以及常见的设计模式</strong>有一定理解
-          </span>
-        </p>
-        <p class="text">
-          <span class="icon">&#xe71f;</span>可以编写语义化的
-          HTML(5)，注意dom结构的精简，能够使用 CSS(3)实现较复杂布局与动画（传统布局，flex布局，响应式等）。
-          对HTML标签的使用、文档流、盒模型、BFC（IFC，FFC等） 有自己的理解
-        </p>
-        <p class="text">
-          <span class="icon">&#xe71f;</span>熟悉使用SCSS等预处理器常见用法，理解它与CSS的差别
-        </p>
-      </div>
-      <!-- Javascript / HTML（5） / CSS（3） / SCSS -->
-
       <!-- Typescript -->
       <div class="content">
         <p class="sec-title">
@@ -96,8 +98,8 @@
           <span class="dot"></span>工程化构建工具
         </p>
         <p class="text">
-          <span class="icon">&#xe71f;</span>能够使用
-          <strong>webpack、脚手架（vue-cli等）</strong> 配置构建简单项目，对该工具有一定理解
+          <span class="icon">&#xe71f;</span>
+          <span>能够使用<strong> Webpack、脚手架（vue-cli等）</strong>配置构建简单项目，对该工具有一定理解</span>
         </p>
       </div>
       <!-- 工程化构建工具 -->
@@ -119,10 +121,11 @@
           </span>
         </p> -->
         <p class="text">
-          <span class="icon">&#xe71f;</span>了解使用过python，优化组内的项目打包脚本，并将其改写生成为exe文件的GUI工具，减少使用者对于环境的依赖
+          <span class="icon">&#xe71f;</span>了解性能优化，并且对于其中的一些部分有所实践
         </p>
         <p class="text">
-          <span class="icon">&#xe71f;</span>了解性能优化，并且对于其中的一些部分有所实践
+          <span class="icon">&#xe71f;</span>
+          <span>了解使用过 <strong>python</strong>，优化组内的项目打包脚本，并将其改写生成为exe文件的GUI工具，减少使用者对于环境的依赖</span>
         </p>
       </div>
     </div>
@@ -140,36 +143,36 @@
           <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
           <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
         </p>
-        <p class="text need-more-bottom">
+        <p class="text key-desc-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word need-more-length" style="width: 125px;">概述：</span>
+          <span class="project-key-word need-more-length" style="width: 128px;">概述：</span>
           <span>
-            企业统一通讯解决方案的管理端平台，主要包括视频会议、IM和PBX配置、设备管理等功能。项目使用vue + yl-ui做前端，express做服务端BFF层，nginx做代理服务器，redis做session缓存。
+            企业统一通讯解决方案的管理端平台，主要包括视音频会议、IM和PBX配置、设备管理等功能。项目使用 vue + yl-ui 做前端，express做服务端BFF层，redis做session缓存，nginx做反向代理服务器。
           </span>
         </p>
-        <p class="text need-more-bottom">
+        <p class="text key-desc-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word need-more-length" style="width: 76px;">职责：</span>
+          <span class="project-key-word need-more-length" style="width: 77px;">职责：</span>
           <span>
-            2.4-2.6版本迭代的项目前端负责人，负责需求评审、讨论、开发，包括任务分配、技术支持、bug修改等相关流程杂活
+            2.4-2.5版本迭代的项目前端负责人，负责需求评审、讨论、开发，包括任务分配、技术支持、bug修改等相关流程杂活。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            会议高级控制使用apollo-sip SDK通过建立socket连接直接与fs进行数据交互。
+            <strong>会议高级控制：</strong>使用apollo-sip SDK通过建立socket连接直接与fs进行数据交互。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            灰度升级：本身服务端express使用了consul进行后端服务发现，于是利用了该逻辑加上nginx的负载均衡粒度修改去完成了灰度。
+            <strong>灰度升级：</strong>本身服务端express使用了consul进行后端服务发现，于是利用了该逻辑进行相关修改，并且加上nginx的负载均衡粒度调整去实现了灰度。
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            部分重构，抽取通用部分：封装输出管理端常用得组件、类、Mixin等
+            <strong>部分重构，抽取通用部分：</strong>封装输出管理端常用的组件、业务类、Mixin等
           </span>
         </p>
       </div>
@@ -181,36 +184,38 @@
           <!-- <a target="_blank" href="https://github.com/JAZI6/wyy-music-demo">源代码</a>
           <a target="_blank" href="https://www.jianshu.com/p/72ea0b8c978d">项目总结</a> -->
         </p>
-        <p class="text need-more-bottom">
+        <p class="text key-desc-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word need-more-length" style="width: 151px;">概述：</span>
+          <span class="project-key-word need-more-length" style="width: 167px;">概述：</span>
           <span>
-            一个类C端的团队即时协作应用，用户可以各自创建、设置团队，每个团队的功能都包括话题、任务、文件。项目使用vue + element-ui/vant-ui做前端，socket做即时推送，egg做服务端BFF层，nginx做代理服务器，redis做session缓存。
+            一个类C端的团队即时协作应用，用户可以各自创建、设置团队，每个团队的功能都包括话题、任务、文件。项目使用 vue + element-ui / vant-ui 做前端，socket做即时推送，egg做服务端BFF层，redis做session缓存与事件消息的存储消费，nginx做代理服务器。
           </span>
         </p>
-        <p class="text need-more-bottom">
+        <p class="text key-desc-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
           <span class="project-key-word">职责：</span>
           <span>
-            项目中任务模块的开发，主要包括团队、个人任务。
+            项目中任务模块的开发，包括团队、个人任务。
+          </span>
+        </p>
+        <p class="text light-ponint-bottom">
+          <span class="iconfont"></span>
+          <span>
+            <strong>即时推送：</strong>服务端egg通过socket连接redis服务，以redis队列提供的方法，不断地消费其中的消息事件，然后进一步向前端派发事件通知。
+          </span>
+        </p>
+        <p class="text light-ponint-bottom">
+          <span class="iconfont"></span>
+          <span>
+            <strong>文件批量上传：</strong>任务上传附件使用；<strong>前端 </strong>基于HTML file类型的input，和JS相关原生对象以及它们提供的api实现，包括显示上传的进度速率、<strong>并发上传</strong>、终止上传、重新上传；<strong>node端</strong> 依赖于相关引入模块完成大文件的<strong>按流读取分片、管道流上传</strong>。
+            <!-- FileReader、FormData、XMLHttpRequest -->
+            <!-- egg-multipart、stream-to-array、stream-wormhole、formstream -->
           </span>
         </p>
         <p class="text">
           <span class="iconfont"></span>
           <span>
-            即时推送：服务端egg通过socket连接redis服务，以reids队列提供的方法，不断地消费其中的事件推送队列，然后进一步向前端派发事件通知。
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            文件批量上传：任务上传附件使用；前端基于HTML file类型的input，和JS原生对象FileReader、FormData、XMLHttpRequest以及它们提供的api实现，包括显示上传的进度速率、并发上传、终止上传、重新上传；node端依赖于stream-wormhole、formstream完成大文件的分片、管道流上传。
-          </span>
-        </p>
-        <p class="text">
-          <span class="iconfont"></span>
-          <span>
-            简易富文本编辑框：任务添加评论使用；基于HTML的contenteditable属性，和JS原生对象Selection、Range及其相关api实现
+            <strong>简易富文本编辑框：</strong>任务添加评论使用；基于HTML的contenteditable属性，和JS原生对象Selection、Range及其相关api实现
           </span>
         </p>
       </div>
@@ -430,9 +435,6 @@ export default {}
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        &.need-more-bottom {
-          margin-bottom: 10px;
-        }
         > a {
           transition: all 0.2s;
           &:hover {
@@ -442,8 +444,8 @@ export default {}
         }
         strong {
           align-self: flex-end;
-          line-height: 1.5;
-          margin-top: -1px;
+          // line-height: 1.5;
+          // margin-top: -1px;
         }
         .icon,.chenjz-icon {
           margin-top: 2px;
@@ -466,6 +468,13 @@ export default {}
         margin-bottom: 15px;
         .text {
           padding-left: 35px;
+          margin: 7px 0;
+          &.key-desc-bottom {
+            margin-bottom: 12px;
+          }
+          &.light-ponint-bottom {
+            margin-bottom: 8px;
+          }
         }
         .project-key-word {
           font-size: 18px;
