@@ -12,7 +12,7 @@
         <p class="text">
           <span class="icon">&#xe71f;</span>
           <span>
-            熟悉使用常见的 ES6 语法，对 <strong>原型链、作用域、闭包、this、事件循环等语法重点</strong> 以及 <strong>常见的设计模式</strong> 有一定理解
+            熟悉使用常见的 ES6 语法，对 <strong>原型链、作用域、事件循环等语法重点</strong> 以及 <strong>常见的设计模式</strong> 有一定理解
           </span>
         </p>
         <p class="text">
@@ -39,7 +39,7 @@
         </p>
         <p class="text">
           <span class="icon">&#xe71f;</span>
-          <span>对 Vue 的 <strong>实现重点如：数据响应绑定、模板编译、diff 算法等</strong> 有一定了解</span>
+          <span>对 Vue 的 <strong>实现重点如：数据响应绑定、模板编译、虚拟dom和diff 算法等</strong> 有一定了解</span>
         </p>
         <!-- <p class="text">
           <span class="icon">&#xe71f;</span>
@@ -186,9 +186,9 @@
         </p>
         <p class="text key-desc-bottom">
           <!-- <span class="chenjz-icon">&#xe60f;</span> -->
-          <span class="project-key-word need-more-length" style="width: 167px;">概述：</span>
+          <span class="project-key-word need-more-length" style="width: 181px;">概述：</span>
           <span>
-            一个类C端的团队即时协作应用，用户可以各自创建、设置团队，每个团队的功能都包括话题、任务、文件。项目使用 vue + element-ui / vant-ui 做前端，socket做即时推送，egg做服务端BFF层，redis做session缓存与事件消息的存储消费，nginx做代理服务器。
+            一个类C端的团队即时协作应用，内嵌到UME终端中，用户可以各自创建、设置团队，每个团队的功能都包括话题、任务、文件。项目使用 vue + element-ui / vant-ui 做前端，socket做即时推送，egg做服务端BFF层，redis做session缓存与事件消息的存储消费，nginx做代理服务器。
           </span>
         </p>
         <p class="text key-desc-bottom">
@@ -207,7 +207,7 @@
         <p class="text light-ponint-bottom">
           <span class="iconfont"></span>
           <span>
-            <strong>文件批量上传：</strong>任务上传附件使用；<strong>前端 </strong>基于HTML file类型的input，和JS相关原生对象以及它们提供的api实现，包括显示上传的进度速率、<strong>并发上传</strong>、终止上传、重新上传；<strong>node端</strong> 依赖于相关引入模块完成大文件的<strong>按流读取分片、管道流上传</strong>。
+            <strong>文件批量上传：</strong>任务上传附件使用；<strong>前端 </strong>基于HTML file类型的input，和JS相关原生对象以及它们提供的api实现，包括显示上传的进度速率、<strong>并发上传</strong>、终止上传、重新上传；<strong>node端</strong> 依赖于相关引入模块完成大文件的 <strong>按流读取分片、管道流上传</strong>。
             <!-- FileReader、FormData、XMLHttpRequest -->
             <!-- egg-multipart、stream-to-array、stream-wormhole、formstream -->
           </span>
@@ -216,6 +216,47 @@
           <span class="iconfont"></span>
           <span>
             <strong>简易富文本编辑框：</strong>任务添加评论使用；基于HTML的contenteditable属性，和JS原生对象Selection、Range及其相关api实现
+          </span>
+        </p>
+      </div>
+      <div class="content project-content">
+        <p class="link">
+          <!-- <span class="chenjz-icon">&#xe611;</span> -->
+          <span class="project-key-word">项目三：</span>
+          <span class="project-item-name">UME扩展应用（ PC / Mobile）</span>
+        </p>
+        <p class="text key-desc-bottom">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word need-more-length" style="width: 136px;">概述：</span>
+          <span>
+            一个类C端的拓展应用，内嵌到UME终端中用于丰富其功能如：会议预约、投票、公告、短信等。项目使用 vue + element-ui / vant-ui 做前端，express做服务端BFF层，redis做session缓存，nginx做代理服务器。
+          </span>
+        </p>
+        <p class="text key-desc-bottom">
+          <!-- <span class="chenjz-icon">&#xe60f;</span> -->
+          <span class="project-key-word">职责：</span>
+          <span>
+            项目中短信模块的重构。
+          </span>
+        </p>
+        <p class="text light-ponint-bottom">
+          <span class="iconfont"></span>
+          <span>
+            <strong>运行、打包前先经过node生成模板：</strong>运行、打包时由于已经确定入口、路由以及一些配置差异，所以采取了<strong>执行前替换配置模板中占位符号的方式</strong>来生成当前需要的内容，并替换到关键的依赖文件中，借此完成了<strong>同一项目中可运行 pc / mobile 端功能、</strong><strong>可单独打包各个功能模块对应 pc / mobile 端的静态资源</strong>。
+          </span>
+        </p>
+        <p class="text light-ponint-bottom">
+          <span class="iconfont"></span>
+          <span>
+            <strong>使用adapter、entity、view的方式组织代码：</strong>由adapter层过滤格式化为使用上需要的数据格式，然后在entity层抽取 pc / mobile 端通用的业务类，那么view层上我们只需要关注UI上的界面样式和交互逻辑即可。
+            <!-- FileReader、FormData、XMLHttpRequest -->
+            <!-- egg-multipart、stream-to-array、stream-wormhole、formstream -->
+          </span>
+        </p>
+        <p class="text">
+          <span class="iconfont"></span>
+          <span>
+            <strong>消息收发：</strong>使用socket通过nginx代理直连后端服务完成实时消息的接收发送。
           </span>
         </p>
       </div>
